@@ -24,7 +24,7 @@ public class Main {
       System.out.println("fornecedor db NÃO oferece suporte ParameterMetaData");
     } else {
       System.out.println("db vendor supports ParameterMetaData");
-      // find out the number of dynamic parameters
+      // descubra o número de parâmetros dinâmicos
       int paramCount = paramMetaData.getParameterCount();
       System.out.println("paramCount=" + paramCount);
     }
