@@ -58,7 +58,7 @@ public class Main {
     String username = "mp";
     String password = "mp2";
 
-    Class.forName(driver); // load Oracle driver
+    Class.forName(driver); // carregar driver Oracle
     Connection conn = DriverManager.getConnection(url, username, password);
     return conn;
   }
