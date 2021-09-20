@@ -21,7 +21,7 @@ public class Main {
     pstmt = conn.prepareStatement(query);
     paramMetaData = pstmt.getParameterMetaData();
     if (paramMetaData == null) {
-      System.out.println("db vendor does NOT support ParameterMetaData");
+      System.out.println("fornecedor db NÃO oferece suporte ParameterMetaData");
     } else {
       System.out.println("db vendor supports ParameterMetaData");
       // find out the number of dynamic parameters
